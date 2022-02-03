@@ -1,8 +1,13 @@
 .form-block {
-  border: 1px solid;
-  margin: 20px;
+  /* border: 1px solid; */
+  margin-bottom: 20px;
+  padding-bottom: 0;
 }
 
 .form-field {
-  margin: 10px;
+  margin-bottom: 10px;
+}
+
+.form-field:nth-child() {
+  border: 1px red solid;
 }
